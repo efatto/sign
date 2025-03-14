@@ -6,15 +6,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-12-05 12:06+0000\n"
-"Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
+"PO-Revision-Date: 2025-03-14 22:06+0000\n"
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>\n"
 "Language-Team: none\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.10.2\n"
 
 #. module: sign_oca
 #. odoo-python
@@ -164,7 +164,7 @@ msgstr "Richiedi località"
 #: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__message_attachment_count
 #: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template__message_attachment_count
 msgid "Attachment Count"
-msgstr "Conteggio allegati"
+msgstr "Numero allegati"
 
 #. module: sign_oca
 #. odoo-javascript
@@ -296,14 +296,14 @@ msgstr "Dati"
 #: code:addons/sign_oca/static/src/components/sign_oca_configure/sign_oca_configure.xml:0
 #, python-format
 msgid "Data is saved automatically when editing"
-msgstr "I dati sono salvati automaticamente quando si modifica"
+msgstr "Durante la modifica i dati vengono salvati automaticamente"
 
 #. module: sign_oca
 #. odoo-javascript
 #: code:addons/sign_oca/static/src/components/sign_oca_configure/sign_oca_configure.xml:0
 #, python-format
 msgid "Data is saved automatically when editing."
-msgstr "I dati sono salvati automaticamente quando si modifica."
+msgstr "Durante la modifica i dati vengono salvati automaticamente."
 
 #. module: sign_oca
 #: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_log__date
@@ -359,7 +359,7 @@ msgstr "Nome visualizzato"
 #. module: sign_oca
 #: model_terms:ir.ui.view,arch_db:sign_oca.portal_sign_document_signed
 msgid "Document"
-msgstr "Documento"
+msgstr "Il documento"
 
 #. module: sign_oca
 #: model:ir.model.fields,field_description:sign_oca.field_sign_oca_role__domain
@@ -374,7 +374,7 @@ msgstr "Bozza"
 #. module: sign_oca
 #: model_terms:ir.ui.view,arch_db:sign_oca.sign_oca_request_kanban_view
 msgid "Dropdown menu"
-msgstr "Menu a tendina"
+msgstr "Menù a tendina"
 
 #. module: sign_oca
 #. odoo-javascript
