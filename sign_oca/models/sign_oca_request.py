@@ -592,7 +592,9 @@ class SignOcaRequestSigner(models.Model):
         return result
 
     def _get_sequence(self):
-        return self.env.ref("sign_oca.sign_inalterability_sequence")
+        return self.env.ref(
+            "sign_oca.sign_inalterability_sequence", raise_if_not_found=False
+        )
 
     @api.depends(
         lambda r: ["request_id.data", "inalterable_hash", "secure_sequence_number"]
