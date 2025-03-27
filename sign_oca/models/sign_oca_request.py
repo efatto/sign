@@ -312,6 +312,13 @@ class SignOcaRequest(models.Model):
             return
         if all(self.mapped("signer_ids.signed_on")):
             self.state = "signed"
+            self._signed_hook()
+
+    def _signed_hook(self):
+        """
+        This hook can be used to enforce the execution of some code when the request is signed.
+        It is interesting for automation_oca for example.
+        """
 
     def _set_action_log_vals(self, action, **kwargs):
         vals = kwargs.copy()
