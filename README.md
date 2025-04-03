@@ -21,7 +21,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[maintenance_sign_oca](maintenance_sign_oca/) | 16.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Maintenance Sign Oca
+[maintenance_sign_oca](maintenance_sign_oca/) | 16.0.1.0.1 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Maintenance Sign Oca
 [project_task_sign_oca](project_task_sign_oca/) | 16.0.1.0.1 |  | Project Task Sign Oca
 [sign_oca](sign_oca/) | 16.0.4.0.5 | [![etobella](https://github.com/etobella.png?size=30px)](https://github.com/etobella) | Allow to sign documents inside Odoo CE
 
