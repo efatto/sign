@@ -704,7 +704,7 @@ msgstr "Allegato principale"
 
 #. module: sign_oca
 #. odoo-javascript
-#: code:addons/sign_oca/static/src/components/sign_oca_pdf/sign_oca_pdf.xml:0
+#: code:addons/sign_oca/static/src/components/sign_oca_pdf_portal/sign_oca_pdf_portal.xml:0
 #, python-format
 msgid "Main actions"
 msgstr "Azioni principali"
@@ -1016,7 +1016,7 @@ msgstr "Visualizza tutte le righe con l'azione successiva antecedente ad oggi"
 
 #. module: sign_oca
 #. odoo-javascript
-#: code:addons/sign_oca/static/src/components/sign_oca_pdf/sign_oca_pdf.xml:0
+#: code:addons/sign_oca/static/src/components/sign_oca_pdf_portal/sign_oca_pdf_portal.xml:0
 #: model:ir.model.fields.selection,name:sign_oca.selection__sign_oca_request_log__action__sign
 #: model:ir.module.category,name:sign_oca.sign_oca_module_category
 #: model:ir.ui.menu,name:sign_oca.sign_oca_root_menu

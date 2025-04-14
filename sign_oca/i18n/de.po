@@ -48,7 +48,8 @@ msgstr "<span class=\"o_stat_text\"> Unterschrieben</span>"
 #: model_terms:ir.ui.view,arch_db:sign_oca.sign_oca_template_mail
 msgid ""
 "<strong>Warning</strong> do not forward this email to other people!<br/>\n"
-"                    They will be able to access this document and sign it as yourself.<br/>"
+"                    They will be able to access this document and sign it as "
+"yourself.<br/>"
 msgstr ""
 "<strong>Achtung</strong> Leiten Sie diese E-Mail nicht an andere Personen "
 "weiter!<br/>\n"
@@ -575,8 +576,8 @@ msgstr ""
 #: code:addons/sign_oca/static/src/components/sign_oca_configure/sign_oca_configure.xml:0
 #, python-format
 msgid ""
-"In order to add a new field, do a right click over the PDF page. You will be"
-" able to select the field that you will import"
+"In order to add a new field, do a right click over the PDF page. You will be "
+"able to select the field that you will import"
 msgstr ""
 "Um ein neues Feld hinzuzufügen, klicken Sie rechts auf die PDF-Seite. Sie "
 "können anschließend auswählen, welches Feld Sie importieren wollen"
@@ -586,9 +587,12 @@ msgstr ""
 #: code:addons/sign_oca/static/src/components/sign_oca_configure/sign_oca_configure.xml:0
 #, python-format
 msgid ""
-"In order to add a new field, do a right click over the PDF page. You will be able to select the field that you will import.\n"
-"                Then, you can move and resize the fields over the PDF page using the move icons.\n"
-"                If you do a click over a field, you will be able to change the default configurations of the field"
+"In order to add a new field, do a right click over the PDF page. You will be "
+"able to select the field that you will import.\n"
+"                Then, you can move and resize the fields over the PDF page "
+"using the move icons.\n"
+"                If you do a click over a field, you will be able to change "
+"the default configurations of the field"
 msgstr ""
 "Um ein neues Feld hinzuzufügen, klicken Sie rechts auf die PDF-Seite. Sie "
 "können anschließend auswählen, welches Feld Sie importieren wollen.\n"
@@ -706,7 +710,7 @@ msgstr "Hauptanhang"
 
 #. module: sign_oca
 #. odoo-javascript
-#: code:addons/sign_oca/static/src/components/sign_oca_pdf/sign_oca_pdf.xml:0
+#: code:addons/sign_oca/static/src/components/sign_oca_pdf_portal/sign_oca_pdf_portal.xml:0
 #, python-format
 msgid "Main actions"
 msgstr "Hauptaktionen"
@@ -1022,7 +1026,7 @@ msgstr "Zeige alle Einträge deren nächste Maßnahme vor heute liegt"
 
 #. module: sign_oca
 #. odoo-javascript
-#: code:addons/sign_oca/static/src/components/sign_oca_pdf/sign_oca_pdf.xml:0
+#: code:addons/sign_oca/static/src/components/sign_oca_pdf_portal/sign_oca_pdf_portal.xml:0
 #: model:ir.model.fields.selection,name:sign_oca.selection__sign_oca_request_log__action__sign
 #: model:ir.module.category,name:sign_oca.sign_oca_module_category
 #: model:ir.ui.menu,name:sign_oca.sign_oca_root_menu
@@ -1083,7 +1087,6 @@ msgstr "Unterschriftenanfrage Wert"
 #. module: sign_oca
 #. odoo-javascript
 #: code:addons/sign_oca/static/src/xml/systray.xml:0
-#: code:addons/sign_oca/static/src/xml/systray.xml:0
 #: model:ir.actions.act_window,name:sign_oca.sign_oca_request_act_window
 #: model:ir.actions.act_window,name:sign_oca.sign_oca_request_log_act_window
 #: model:ir.actions.act_window,name:sign_oca.sign_oca_request_template_act_window
@@ -1137,7 +1140,6 @@ msgstr "Unterschriftenhash"
 
 #. module: sign_oca
 #. odoo-javascript
-#: code:addons/sign_oca/static/src/components/sign_oca_configure/sign_oca_configure.xml:0
 #: code:addons/sign_oca/static/src/components/sign_oca_configure/sign_oca_configure.xml:0
 #, python-format
 msgid "Signature configuration"
