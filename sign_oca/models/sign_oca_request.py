@@ -415,9 +415,10 @@ class SignOcaRequestSigner(models.Model):
         self.ensure_one()
         self._set_action_log("view", access_token=access_token)
         partner_fields_dict = {"id": self.partner_id.id}
+        user_id = self.env['res.users'].search([("partner_id", "=", self.partner_id.id)])
         for field_name, field_info in (
             self.env["res.partner"]
-            .with_user(self.partner_id.user_id)
+            .with_user(user_id)
             .fields_get()
             .items()
         ):
