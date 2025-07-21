@@ -5,7 +5,7 @@
     "name": "Sign Oca",
     "summary": """
         Allow to sign documents inside Odoo CE""",
-    "version": "16.0.4.1.1",
+    "version": "16.0.4.2.0",
     "license": "AGPL-3",
     "author": "Dixmit,Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/sign",
