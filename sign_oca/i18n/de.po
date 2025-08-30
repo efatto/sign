@@ -302,10 +302,24 @@ msgstr "Überprüfen"
 
 #. module: sign_oca
 #. odoo-javascript
+#: code:addons/sign_oca/static/src/components/sign_oca_pdf_portal/sign_oca_navigator.esm.js:0
+#, python-format
+msgid "Click on Validate Button"
+msgstr ""
+
+#. module: sign_oca
+#. odoo-javascript
 #: code:addons/sign_oca/static/src/components/sign_oca_configure/sign_oca_configure.xml:0
 #, python-format
 msgid "Click on the field that you want to add"
 msgstr "Klicken Sie auf das Feld, welches Sie hinzufügen wollen"
+
+#. module: sign_oca
+#. odoo-javascript
+#: code:addons/sign_oca/static/src/components/sign_oca_pdf_portal/sign_oca_navigator.esm.js:0
+#, python-format
+msgid "Click to start"
+msgstr ""
 
 #. module: sign_oca
 #: model:ir.model,name:sign_oca.model_res_company
@@ -895,6 +909,13 @@ msgstr ""
 #, python-format
 msgid "New document to sign"
 msgstr "Neues Dokument zum Unterschreiben"
+
+#. module: sign_oca
+#. odoo-javascript
+#: code:addons/sign_oca/static/src/components/sign_oca_pdf_portal/sign_oca_navigator.esm.js:0
+#, python-format
+msgid "Next"
+msgstr ""
 
 #. module: sign_oca
 #: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__activity_date_deadline
