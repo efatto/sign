@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-08-01 16:25+0000\n"
+"PO-Revision-Date: 2025-09-08 10:43+0000\n"
 "Last-Translator: davidbeckercbl <becker@cbl-computer.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -305,7 +305,7 @@ msgstr "Überprüfen"
 #: code:addons/sign_oca/static/src/components/sign_oca_pdf_portal/sign_oca_navigator.esm.js:0
 #, python-format
 msgid "Click on Validate Button"
-msgstr ""
+msgstr "Klicken Sie auf Prüfen"
 
 #. module: sign_oca
 #. odoo-javascript
@@ -319,7 +319,7 @@ msgstr "Klicken Sie auf das Feld, welches Sie hinzufügen wollen"
 #: code:addons/sign_oca/static/src/components/sign_oca_pdf_portal/sign_oca_navigator.esm.js:0
 #, python-format
 msgid "Click to start"
-msgstr ""
+msgstr "Klicken zum Starten"
 
 #. module: sign_oca
 #: model:ir.model,name:sign_oca.model_res_company
@@ -915,7 +915,7 @@ msgstr "Neues Dokument zum Unterschreiben"
 #: code:addons/sign_oca/static/src/components/sign_oca_pdf_portal/sign_oca_navigator.esm.js:0
 #, python-format
 msgid "Next"
-msgstr ""
+msgstr "Weiter"
 
 #. module: sign_oca
 #: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__activity_date_deadline
@@ -1082,7 +1082,6 @@ msgstr "Erforderlich"
 
 #. module: sign_oca
 #: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_signer__res_id
-#, fuzzy
 msgid "Res"
 msgstr "Res"
 
