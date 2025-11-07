@@ -21,7 +21,9 @@ class SignOcaTemplate(models.Model):
         string="Model",
         domain=[("transient", "=", False), ("model", "not like", "sign.oca")],
     )
-    model = fields.Char(compute="_compute_model", compute_sudo=True, store=True)
+    model = fields.Char(
+        compute="_compute_model", compute_sudo=True, store=True, string="Model name"
+    )
     active = fields.Boolean(default=True)
     request_ids = fields.One2many("sign.oca.request", inverse_name="template_id")
 
