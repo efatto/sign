@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-10-13 09:43+0000\n"
+"PO-Revision-Date: 2025-11-10 10:44+0000\n"
 "Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
 "Language-Team: none\n"
 "Language: it\n"
@@ -50,16 +50,19 @@ msgid ""
 "<span class=\"d-none d-md-inline\">Sign Request #</span>\n"
 "                            <span class=\"d-block d-md-none\">Ref.</span>"
 msgstr ""
+"<span class=\"d-none d-md-inline\">Richiesta firma n°</span>\n"
+"                            <span class=\"d-block d-md-none\">Rif.</span>"
 
 #. module: sign_oca
 #: model_terms:ir.ui.view,arch_db:sign_oca.sign_requests
 msgid "<span class=\"fa fa-hourglass mx-2\" title=\"Not fully signed!\"/>"
 msgstr ""
+"<span class=\"fa fa-hourglass mx-2\" title=\"Non firmata completamente!\"/>"
 
 #. module: sign_oca
 #: model_terms:ir.ui.view,arch_db:sign_oca.sign_requests
 msgid "<span class=\"fa fa-save mx-2\" title=\"Download\"/>"
-msgstr ""
+msgstr "<span class=\"fa fa-save mx-2\" title=\"Scarica\"/>"
 
 #. module: sign_oca
 #: model_terms:ir.ui.view,arch_db:sign_oca.report_signature_certificate_doc
@@ -134,7 +137,7 @@ msgstr "<span>-</span>"
 #. module: sign_oca
 #: model_terms:ir.ui.view,arch_db:sign_oca.portal_my_home_menu_sign
 msgid "<span>Sign Requests</span>"
-msgstr ""
+msgstr "<span>Richieste firma</span>"
 
 #. module: sign_oca
 #: model_terms:ir.ui.view,arch_db:sign_oca.report_signature_certificate_doc
@@ -236,7 +239,7 @@ msgstr "Amministratore"
 #: code:addons/sign_oca/controllers/main.py:0
 #, python-format
 msgid "All"
-msgstr ""
+msgstr "Tutte"
 
 #. module: sign_oca
 #: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_signer__altered_hash
@@ -896,7 +899,7 @@ msgstr "Modello"
 #. module: sign_oca
 #: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template__model
 msgid "Model name"
-msgstr ""
+msgstr "Nome modello"
 
 #. module: sign_oca
 #: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__my_activity_date_deadline
@@ -941,7 +944,7 @@ msgstr "Nuovo documento da firmare"
 #: code:addons/sign_oca/controllers/main.py:0
 #, python-format
 msgid "Newest"
-msgstr ""
+msgstr "La più recente"
 
 #. module: sign_oca
 #. odoo-javascript
@@ -1016,7 +1019,7 @@ msgstr "Oggetto"
 #: code:addons/sign_oca/controllers/main.py:0
 #, python-format
 msgid "Oldest"
-msgstr ""
+msgstr "La meno recente"
 
 #. module: sign_oca
 #: model:ir.model.fields,help:sign_oca.field_res_company__sign_oca_send_sign_request_copy
@@ -1195,7 +1198,7 @@ msgstr "Inviata"
 #: code:addons/sign_oca/controllers/main.py:0
 #, python-format
 msgid "Sent to Signed"
-msgstr ""
+msgstr "Inviato a firmato"
 
 #. module: sign_oca
 #: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_signer__sequence_id
@@ -1325,7 +1328,7 @@ msgstr "Certificato firma"
 #. module: sign_oca
 #: model_terms:ir.ui.view,arch_db:sign_oca.sign_requests
 msgid "Signature Date"
-msgstr ""
+msgstr "Data della firma"
 
 #. module: sign_oca
 #: model:ir.model,name:sign_oca.model_sign_oca_field
@@ -1341,7 +1344,7 @@ msgstr "Hash firma"
 #: model_terms:ir.ui.view,arch_db:sign_oca.portal_my_home
 #: model_terms:ir.ui.view,arch_db:sign_oca.sign_requests
 msgid "Signature Requests"
-msgstr ""
+msgstr "Richieste firma"
 
 #. module: sign_oca
 #. odoo-javascript
@@ -1397,7 +1400,7 @@ msgstr "Firmato il"
 #: code:addons/sign_oca/controllers/main.py:0
 #, python-format
 msgid "Signed to Sent"
-msgstr ""
+msgstr "Firmato a inviato"
 
 #. module: sign_oca
 #: model_terms:ir.ui.view,arch_db:sign_oca.report_signature_certificate_doc
@@ -1493,7 +1496,7 @@ msgstr ""
 #. module: sign_oca
 #: model_terms:ir.ui.view,arch_db:sign_oca.sign_requests
 msgid "There are currently no sign requests for your account."
-msgstr ""
+msgstr "Non ci sono attualmente richieste di firma per il tuo conto."
 
 #. module: sign_oca
 #. odoo-python
@@ -1587,7 +1590,7 @@ msgstr "Visualizza documento"
 #. module: sign_oca
 #: model_terms:ir.ui.view,arch_db:sign_oca.portal_my_home
 msgid "View, or sign documents"
-msgstr ""
+msgstr "Vedi o firma documenti"
 
 #. module: sign_oca
 #: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__website_message_ids
@@ -1650,7 +1653,7 @@ msgstr "è già stato firmato"
 #: code:addons/sign_oca/controllers/main.py:0
 #, python-format
 msgid "sent"
-msgstr ""
+msgstr "Inviata"
 
 #~ msgid "sign.oca.request.log"
 #~ msgstr "sign.oca.request.log"
